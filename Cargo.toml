@@ -1,0 +1,24 @@
+[package]
+name = "tidelatch"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "tidelatch"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+anyhow = "1"
+serde = { version = "1", features = ["derive"] }
+serde_yaml = "0.9"
+fission = { path = "../fission-release-automation/crates/authoring/fission", default-features = false, features = ["desktop", "web", "android", "ios", "game", "scene2d", "physics-rapier2d"] }
+
+[target.'cfg(target_arch = "wasm32")'.dependencies]
+console_error_panic_hook = "0.1"
+wasm-bindgen = "0.2"
+
+[profile.dev]
+debug = "line-tables-only"
+
+[profile.dev.package."*"]
+debug = false
