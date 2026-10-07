@@ -224,7 +224,7 @@ impl From<TideLatchApp> for Widget {
         .padding_all(tokens.spacing.xl)
         .bg(tokens.colors.background);
 
-        GameInputRegion::for_game::<TideLatchGame>(content.into(), input_action)
+        GameInputRegion::for_game::<TideLatchGame>(content, input_action)
             .semantics_identifier("tidelatch.game-input")
             .into()
     }
