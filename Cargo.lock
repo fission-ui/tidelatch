@@ -1365,6 +1365,7 @@ checksum = "aedcfb3409746eddb02b9e19ebda1c3394f759a152e48ee875a0844d1b955484"
 [[package]]
 name = "fission"
 version = "0.15.1"
+source = "git+https://github.com/fission-ui/fission.git?rev=493e8d0c902da3ad1b45027501427b31d8b8de0c#493e8d0c902da3ad1b45027501427b31d8b8de0c"
 dependencies = [
  "fission-assets",
  "fission-core",
@@ -1408,6 +1409,7 @@ dependencies = [
 [[package]]
 name = "fission-assets"
 version = "0.1.0-alpha.1"
+source = "git+https://github.com/fission-ui/fission.git?rev=493e8d0c902da3ad1b45027501427b31d8b8de0c#493e8d0c902da3ad1b45027501427b31d8b8de0c"
 dependencies = [
  "serde",
  "sha2",
@@ -1416,6 +1418,7 @@ dependencies = [
 [[package]]
 name = "fission-core"
 version = "0.15.1"
+source = "git+https://github.com/fission-ui/fission.git?rev=493e8d0c902da3ad1b45027501427b31d8b8de0c#493e8d0c902da3ad1b45027501427b31d8b8de0c"
 dependencies = [
  "anyhow",
  "blake3",
@@ -1441,6 +1444,7 @@ dependencies = [
 [[package]]
 name = "fission-design-system-codegen"
 version = "0.15.1"
+source = "git+https://github.com/fission-ui/fission.git?rev=493e8d0c902da3ad1b45027501427b31d8b8de0c#493e8d0c902da3ad1b45027501427b31d8b8de0c"
 dependencies = [
  "anyhow",
  "serde_json",
@@ -1449,6 +1453,7 @@ dependencies = [
 [[package]]
 name = "fission-diagnostics"
 version = "0.15.1"
+source = "git+https://github.com/fission-ui/fission.git?rev=493e8d0c902da3ad1b45027501427b31d8b8de0c#493e8d0c902da3ad1b45027501427b31d8b8de0c"
 dependencies = [
  "bitflags 2.13.2",
  "once_cell",
@@ -1462,6 +1467,7 @@ dependencies = [
 [[package]]
 name = "fission-game"
 version = "0.1.0-alpha.1"
+source = "git+https://github.com/fission-ui/fission.git?rev=493e8d0c902da3ad1b45027501427b31d8b8de0c#493e8d0c902da3ad1b45027501427b31d8b8de0c"
 dependencies = [
  "fission-core",
  "fission-ir",
@@ -1472,6 +1478,7 @@ dependencies = [
 [[package]]
 name = "fission-glifo"
 version = "0.3.0-fission.1"
+source = "git+https://github.com/fission-ui/fission.git?rev=493e8d0c902da3ad1b45027501427b31d8b8de0c#493e8d0c902da3ad1b45027501427b31d8b8de0c"
 dependencies = [
  "bytemuck",
  "fission-vello-common",
@@ -1487,6 +1494,7 @@ dependencies = [
 [[package]]
 name = "fission-i18n"
 version = "0.15.1"
+source = "git+https://github.com/fission-ui/fission.git?rev=493e8d0c902da3ad1b45027501427b31d8b8de0c#493e8d0c902da3ad1b45027501427b31d8b8de0c"
 dependencies = [
  "serde",
 ]
@@ -1494,6 +1502,7 @@ dependencies = [
 [[package]]
 name = "fission-icons"
 version = "0.15.1"
+source = "git+https://github.com/fission-ui/fission.git?rev=493e8d0c902da3ad1b45027501427b31d8b8de0c#493e8d0c902da3ad1b45027501427b31d8b8de0c"
 dependencies = [
  "heck 0.4.1",
  "serde_json",
@@ -1503,6 +1512,7 @@ dependencies = [
 [[package]]
 name = "fission-ir"
 version = "0.15.1"
+source = "git+https://github.com/fission-ui/fission.git?rev=493e8d0c902da3ad1b45027501427b31d8b8de0c#493e8d0c902da3ad1b45027501427b31d8b8de0c"
 dependencies = [
  "blake3",
  "kurbo",
@@ -1513,6 +1523,7 @@ dependencies = [
 [[package]]
 name = "fission-layout"
 version = "0.15.1"
+source = "git+https://github.com/fission-ui/fission.git?rev=493e8d0c902da3ad1b45027501427b31d8b8de0c#493e8d0c902da3ad1b45027501427b31d8b8de0c"
 dependencies = [
  "anyhow",
  "fission-diagnostics",
@@ -1523,6 +1534,7 @@ dependencies = [
 [[package]]
 name = "fission-macros"
 version = "0.15.1"
+source = "git+https://github.com/fission-ui/fission.git?rev=493e8d0c902da3ad1b45027501427b31d8b8de0c#493e8d0c902da3ad1b45027501427b31d8b8de0c"
 dependencies = [
  "proc-macro-crate",
  "proc-macro2",
@@ -1533,6 +1545,7 @@ dependencies = [
 [[package]]
 name = "fission-physics"
 version = "0.1.0-alpha.1"
+source = "git+https://github.com/fission-ui/fission.git?rev=493e8d0c902da3ad1b45027501427b31d8b8de0c#493e8d0c902da3ad1b45027501427b31d8b8de0c"
 dependencies = [
  "fission-game",
  "fission-scene",
@@ -1542,6 +1555,7 @@ dependencies = [
 [[package]]
 name = "fission-physics-rapier2d"
 version = "0.1.0-alpha.1"
+source = "git+https://github.com/fission-ui/fission.git?rev=493e8d0c902da3ad1b45027501427b31d8b8de0c#493e8d0c902da3ad1b45027501427b31d8b8de0c"
 dependencies = [
  "fission-physics",
  "rapier2d",
@@ -1550,6 +1564,7 @@ dependencies = [
 [[package]]
 name = "fission-render"
 version = "0.15.1"
+source = "git+https://github.com/fission-ui/fission.git?rev=493e8d0c902da3ad1b45027501427b31d8b8de0c#493e8d0c902da3ad1b45027501427b31d8b8de0c"
 dependencies = [
  "anyhow",
  "fission-ir",
@@ -1561,6 +1576,7 @@ dependencies = [
 [[package]]
 name = "fission-render-vello"
 version = "0.15.1"
+source = "git+https://github.com/fission-ui/fission.git?rev=493e8d0c902da3ad1b45027501427b31d8b8de0c#493e8d0c902da3ad1b45027501427b31d8b8de0c"
 dependencies = [
  "anyhow",
  "fission-diagnostics",
@@ -1585,6 +1601,7 @@ dependencies = [
 [[package]]
 name = "fission-scene"
 version = "0.1.0-alpha.1"
+source = "git+https://github.com/fission-ui/fission.git?rev=493e8d0c902da3ad1b45027501427b31d8b8de0c#493e8d0c902da3ad1b45027501427b31d8b8de0c"
 dependencies = [
  "serde",
 ]
@@ -1592,6 +1609,7 @@ dependencies = [
 [[package]]
 name = "fission-scene2d"
 version = "0.1.0-alpha.1"
+source = "git+https://github.com/fission-ui/fission.git?rev=493e8d0c902da3ad1b45027501427b31d8b8de0c#493e8d0c902da3ad1b45027501427b31d8b8de0c"
 dependencies = [
  "bincode",
  "fission-core",
@@ -1603,6 +1621,7 @@ dependencies = [
 [[package]]
 name = "fission-semantics"
 version = "0.15.1"
+source = "git+https://github.com/fission-ui/fission.git?rev=493e8d0c902da3ad1b45027501427b31d8b8de0c#493e8d0c902da3ad1b45027501427b31d8b8de0c"
 dependencies = [
  "fission-ir",
  "serde",
@@ -1611,6 +1630,7 @@ dependencies = [
 [[package]]
 name = "fission-shell"
 version = "0.15.1"
+source = "git+https://github.com/fission-ui/fission.git?rev=493e8d0c902da3ad1b45027501427b31d8b8de0c#493e8d0c902da3ad1b45027501427b31d8b8de0c"
 dependencies = [
  "anyhow",
  "fission-core",
@@ -1626,6 +1646,7 @@ dependencies = [
 [[package]]
 name = "fission-shell-desktop"
 version = "0.15.1"
+source = "git+https://github.com/fission-ui/fission.git?rev=493e8d0c902da3ad1b45027501427b31d8b8de0c#493e8d0c902da3ad1b45027501427b31d8b8de0c"
 dependencies = [
  "anyhow",
  "fission-core",
@@ -1638,6 +1659,7 @@ dependencies = [
 [[package]]
 name = "fission-shell-mobile"
 version = "0.15.1"
+source = "git+https://github.com/fission-ui/fission.git?rev=493e8d0c902da3ad1b45027501427b31d8b8de0c#493e8d0c902da3ad1b45027501427b31d8b8de0c"
 dependencies = [
  "anyhow",
  "fission-core",
@@ -1650,6 +1672,7 @@ dependencies = [
 [[package]]
 name = "fission-shell-web"
 version = "0.15.1"
+source = "git+https://github.com/fission-ui/fission.git?rev=493e8d0c902da3ad1b45027501427b31d8b8de0c#493e8d0c902da3ad1b45027501427b31d8b8de0c"
 dependencies = [
  "anyhow",
  "fission-core",
@@ -1661,6 +1684,7 @@ dependencies = [
 [[package]]
 name = "fission-shell-winit"
 version = "0.15.1"
+source = "git+https://github.com/fission-ui/fission.git?rev=493e8d0c902da3ad1b45027501427b31d8b8de0c#493e8d0c902da3ad1b45027501427b31d8b8de0c"
 dependencies = [
  "accesskit",
  "anyhow",
@@ -1713,6 +1737,7 @@ dependencies = [
 [[package]]
 name = "fission-test-driver"
 version = "0.15.1"
+source = "git+https://github.com/fission-ui/fission.git?rev=493e8d0c902da3ad1b45027501427b31d8b8de0c#493e8d0c902da3ad1b45027501427b31d8b8de0c"
 dependencies = [
  "anyhow",
  "base64",
@@ -1726,6 +1751,7 @@ dependencies = [
 [[package]]
 name = "fission-text-engine"
 version = "0.15.1"
+source = "git+https://github.com/fission-ui/fission.git?rev=493e8d0c902da3ad1b45027501427b31d8b8de0c#493e8d0c902da3ad1b45027501427b31d8b8de0c"
 dependencies = [
  "ropey",
 ]
@@ -1733,6 +1759,7 @@ dependencies = [
 [[package]]
 name = "fission-theme"
 version = "0.15.1"
+source = "git+https://github.com/fission-ui/fission.git?rev=493e8d0c902da3ad1b45027501427b31d8b8de0c#493e8d0c902da3ad1b45027501427b31d8b8de0c"
 dependencies = [
  "fission-design-system-codegen",
  "fission-ir",
@@ -1742,6 +1769,7 @@ dependencies = [
 [[package]]
 name = "fission-vello-common"
 version = "0.2.0-fission.1"
+source = "git+https://github.com/fission-ui/fission.git?rev=493e8d0c902da3ad1b45027501427b31d8b8de0c#493e8d0c902da3ad1b45027501427b31d8b8de0c"
 dependencies = [
  "bytemuck",
  "fearless_simd",
@@ -1756,6 +1784,7 @@ dependencies = [
 [[package]]
 name = "fission-vello-cpu"
 version = "0.2.0-fission.1"
+source = "git+https://github.com/fission-ui/fission.git?rev=493e8d0c902da3ad1b45027501427b31d8b8de0c#493e8d0c902da3ad1b45027501427b31d8b8de0c"
 dependencies = [
  "bytemuck",
  "fission-glifo",
@@ -1768,6 +1797,7 @@ dependencies = [
 [[package]]
 name = "fission-vello-gpu"
 version = "0.2.0-fission.1"
+source = "git+https://github.com/fission-ui/fission.git?rev=493e8d0c902da3ad1b45027501427b31d8b8de0c#493e8d0c902da3ad1b45027501427b31d8b8de0c"
 dependencies = [
  "bytemuck",
  "fission-glifo",
@@ -1782,6 +1812,7 @@ dependencies = [
 [[package]]
 name = "fission-vello-gpu-shaders"
 version = "0.2.0-fission.1"
+source = "git+https://github.com/fission-ui/fission.git?rev=493e8d0c902da3ad1b45027501427b31d8b8de0c#493e8d0c902da3ad1b45027501427b31d8b8de0c"
 dependencies = [
  "naga",
  "wesl",
@@ -1793,6 +1824,7 @@ dependencies = [
 [[package]]
 name = "fission-widgets"
 version = "0.15.1"
+source = "git+https://github.com/fission-ui/fission.git?rev=493e8d0c902da3ad1b45027501427b31d8b8de0c#493e8d0c902da3ad1b45027501427b31d8b8de0c"
 dependencies = [
  "anyhow",
  "chrono",

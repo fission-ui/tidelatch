@@ -11,7 +11,7 @@ crate-type = ["cdylib", "rlib"]
 anyhow = "1"
 serde = { version = "1", features = ["derive"] }
 serde_yaml = "0.9"
-fission = { path = "../fission-release-automation/crates/authoring/fission", default-features = false, features = ["desktop", "web", "android", "ios", "game", "scene2d", "physics-rapier2d"] }
+fission = { git = "https://github.com/fission-ui/fission.git", rev = "493e8d0c902da3ad1b45027501427b31d8b8de0c", default-features = false, features = ["desktop", "web", "android", "ios", "game", "scene2d", "physics-rapier2d"] }
 
 [target.'cfg(target_arch = "wasm32")'.dependencies]
 console_error_panic_hook = "0.1"
