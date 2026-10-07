@@ -62,15 +62,6 @@ impl fmt::Debug for TideLatchState {
 
 impl GlobalState for TideLatchState {}
 
-#[fission_action]
-struct FrameTick;
-#[fission_action]
-struct Latch;
-#[fission_action]
-struct Release;
-#[fission_action]
-struct Restart;
-
 #[fission_reducer(FrameTick)]
 fn tick(state: &mut TideLatchState) {
     state.advance();
